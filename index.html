@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WiFi Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>WiFi Speed Test</h1>
+  <p>Select a file size to download:</p>
+  <select id="file-size-select">
+    <option value="100">100 MB</option>
+    <option value="1000">1 GB</option>
+    <option value="10000">10 GB</option>
+    <option value="custom">Custom</option>
+  </select>
+  <input type="number" id="custom-size-input" style="display: none;">
+  <button id="start-button">Start Test</button>
+  <div id="result-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
